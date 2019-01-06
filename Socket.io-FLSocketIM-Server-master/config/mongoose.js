@@ -19,7 +19,7 @@ var mongoose = require('mongoose'); //引入mongoose模块
 //
 // });
 
-var URL = 'mongodb://127.0.0.1:27017/chat';
+var URL = 'mongodb://0.0.0.0:27017/chat';
 
 var db = mongoose.connect(URL,function(err){
     if(err){
